@@ -7,7 +7,7 @@ import InputField from "../InputField";
 import Image from "next/image";
 import { useState } from "react";
 
-// Schema with `birthday` fix
+// zod Schema
 const schema = z.object({
   username: z.string().min(3, { message: "Username must be at least 3 characters long!" }).max(20, { message: "Username must be at most 20 characters long!" }),
   email: z.string().email({ message: "Invalid email address!" }),

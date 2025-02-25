@@ -32,7 +32,7 @@ type FormType = "create" | "update" | "delete";
 interface FormModalProps {
   table: TableType;
   type: FormType;
-  data?: any; // Replace with specific type if needed
+  data?: any; 
   id?: number;
 }
 
