@@ -94,7 +94,8 @@ const TeacherForm = ({ type, data }: { type: "create" | "update"; data?: Partial
           </div>
         </div>
 
-        <button className="bg-blue-400 text-white p-2 rounded-md">{type === "create" ? "Create" : "Update"}</button>
+        <button className="bg-gray-600
+         text-white p-2 rounded-md">{type === "create" ? "Create" : "Update"}</button>
       </form>
     </div>
   );

@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <div className=''>Aanchal baral is gay</div>
+    <div className=''>home</div>
   )
 }
 
